@@ -12,6 +12,7 @@ namespace LoupGarou
 {
     public class Client
     {
+        //mettre en public sinon mettre des getters et des setters
         private Socket leSocket;
         private IPEndPoint leIPEP;
         private TextReader leTR;
